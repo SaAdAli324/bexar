@@ -1,0 +1,383 @@
+@import "tailwindcss";
+
+.primary-color{
+  @apply text-[#86c33a]
+}
+.primarybg-color{
+  @apply bg-[#86c33a]
+}
+
+.bg-color{
+  @apply bg-[#252d39]
+}
+.btn-hover{
+    @apply transition hover:bg-lime-500 hover:border-white cursor-pointer hover:text-white hover:border-none
+}
+.btn-secondary{
+    @apply border-2
+}
+.card{
+    @apply transition hover:bg-black hover:text-white cursor-pointer
+}
+.btn-special{
+    @apply transition hover:bg-transparent hover:border-white hover:border-2 cursor-pointer
+      
+}
+.icon-hover{
+  @apply transition-normal hover:text-[#86c33a] duration-250 ease-in-out p-2 cursor-pointer
+}
+.text-hover{
+  @apply transition-normal hover:text-[#86c33a] duration-250 ease-in-out p-1 cursor-pointer
+}
+.primary-textColor{
+  @apply text-[#86c33a]
+}
+@theme {
+  --font-s: "Open Sans Variable", sans-serif;
+  --font-oswald: "Oswald Variable", sans-serif;
+  --font-heading: "Barlow Condensed Variable", sans-serif;
+}
+@layer base{
+  a,span {
+    @apply font-s
+  }
+h1,h2,h3,h4,h5,h6{
+    @apply font-heading font-stretch-ultra-condensed 
+  }
+  p{
+    @apply font-heading font-stretch-ultra-condensed 
+  }
+}
+.btn{
+  @apply border-2 px-6 py-[1.1rem] rounded-4xl  
+}
+.btn-primary{
+  @apply bg-[#86c33a] hover:bg-[#56871b] text-white font-bold
+}
+.btn-secondaryHover{
+  @apply hover:bg-[#86c33a] hover:text-white hover:border-none transition-all duration-400 ease-in-out
+}
+.transition-forNav{
+  @apply transform transition-normal duration-500 ease-in-out
+}
+.banner-transition{
+  @apply translate-y-[-100%] transition-all duration-300 translate-y-0
+}
+@layer components {
+  .btn2 {
+    @apply relative inline-block px-6 py-3 rounded-full font-bold uppercase
+            transition duration-200 ease-in-out;
+    z-index: 1; /* keep button above */
+  }
+
+
+  /* ripple behind button */
+  .btn2::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(0, 128, 0, 0.051);
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(133, 195, 58, 0.568); /* soft green ripple */
+    border-radius:200px;
+    transform: translate(-50%, -50%);
+    transition: width 1s ease, height 1s ease, opacity 1.5s ease;
+    z-index: -1; /* place behind the button */
+  }
+
+  .btn2:hover::after {
+    width: 140%;
+    height: 140%;
+    opacity: 0;
+  }
+
+  .btn2:hover {
+    transform: scale(0.95);
+    opacity: 5;
+  
+  }
+}
+
+
+@layer components {
+  .icon {
+    @apply relative inline-block font-bold uppercase
+            transition duration-200 ease-in-out;
+    z-index: 1; /* keep button above */
+  }
+
+
+  /* ripple behind button */
+  .icon::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(0, 128, 0, 0.051);
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgb(255, 255, 255); /* soft green ripple */
+    border-radius:200px;
+    transform: translate(-50%, -50%);
+    transition: width 1s ease, height 1s ease, opacity 1s ease;
+    z-index: -1; /* place behind the button */
+  }
+
+  .icon:hover::after {
+    width: 180%;
+    height: 180%;
+    opacity: 0;
+  }
+
+  .icon:hover {
+    transform: scale(0.95);
+    opacity: 5;
+    color: #85c33a;
+    background-color: white;
+  
+  }
+}
+
+@layer components {
+  .icon2 {
+    @apply relative inline-block font-bold uppercase
+            transition duration-200 ease-in-out;
+    z-index: 1; /* keep button above */
+  }
+
+
+  /* ripple behind button */
+  .icon2::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(0, 128, 0, 0.051);
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: #85c33a; /* soft green ripple */
+    border-radius:200px;
+    transform: translate(-50%, -50%);
+    transition: width 1s ease, height 1s ease, opacity 1s ease;
+    z-index: -1; /* place behind the button */
+  }
+
+  .icon2:hover::after {
+    width: 180%;
+    height: 180%;
+    opacity: 0;
+  }
+
+  .icon2:hover {
+    transform: scale(0.95);
+    opacity: 5;
+    color: white;
+    background-color: #85c33a;
+    border: none;
+
+  
+  }
+}
+
+
+
+@layer utilities {
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slideDown {
+    animation: slideDown 0.8s ease-out forwards;
+  }
+
+     @keyframes slideRight {
+    0% {
+      transform: translatex(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translatex(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slideRight {
+    animation: slideRight 0.8s ease-out forwards;
+  }
+
+
+     @keyframes slideBottom {
+    0% {
+      transform: translateY(200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slideBottom {
+    animation: slideBottom 0.8s ease-out forwards;
+  }
+
+
+     @keyframes slideLeft {
+    0% {
+      transform: translatex(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translatex(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slideLeft {
+    animation: slideLeft 0.8s ease-out forwards;
+  }
+
+}
+@keyframes water-wave {
+  0% {
+    border-radius: 120px 135px 110px 90px;
+  }
+  25% {
+    border-radius: 130px 140px 100px 110px;
+  }
+  50% {
+    border-radius: 110px 97px 150px 100px;
+  }
+  75% {
+    border-radius: 80px 107px 120px 90px;
+  }
+  100% {
+    border-radius: 120px 135px 110px 90px;
+  }
+}
+.water-wave {
+  width: 105px;   /* adjust size */
+  height: 105px;
+  ; /* example color */
+  border: 2px solid #85c33a ;
+  animation: water-wave 3s infinite linear;
+}
+
+
+@keyframes water-wave2 {
+  0% {
+    border-radius: 120px 135px 110px 90px;
+  }
+  25% {
+    border-radius: 130px 140px 100px 110px;
+  }
+  50% {
+    border-radius: 110px 97px 150px 100px;
+  }
+  75% {
+    border-radius: 80px 107px 120px 90px;
+  }
+  100% {
+    border-radius: 120px 135px 110px 90px;
+  }
+}
+.water-wave2 {
+  width: 100px;   /* adjust size */
+  height: 100px;
+  background: #85c33a4e; /* example color */
+  animation: water-wave 3s infinite linear;
+}
+
+.card-hover{
+  @apply  hover:bg-[#252d39] transition-all duration-200 cursor-pointer 
+}
+.bg-gray-white {
+ @apply   bg-[linear-gradient(90deg,#f5f6fa_45%,#fff_0%)]
+}
+
+
+
+
+.team-bg-animation {
+  position: relative;
+  display: inline-block;
+}
+
+.team-bg-animation img {
+  position: relative;
+  z-index: 1; /* keep image on top */
+}
+
+/* Top-right decoration */
+.team-bg-animation::before {
+  content: "";
+  position: absolute;
+  top: -60px;    /* peek out */
+  right: -20px;  /* peek out */
+  width: 40%;
+  height: 40%;
+  background: url("/backgroundImages/team-member-bg.png") center/contain no-repeat;
+  z-index: 0;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+/* Bottom-left decoration */
+.team-bg-animation::after {
+  content: "";
+  position: absolute;
+  bottom: -20%;
+  left: -50px;
+  width: 40%;
+  height: 80%;
+  background: url("/backgroundImages/team-member-bg.png") center/contain no-repeat;
+  z-index: 0;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.team-bg-animation:hover::before,
+.team-bg-animation:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.more-projectsHover{
+  @apply group-hover:opacity-100 group-hover:text-8xl group-hover:bg-[#86c33ae6] transition-all duration-300 ease-in-out
+}
+
+
+
+
+.image-section {
+  position: relative;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.image-section::before {
+  content: "";
+  position: absolute;   /* stick to parent, not viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/backgroundImages/cta-lg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* 👈 makes it look fixed */
+  opacity: 0.5;
+  z-index: -1;
+}
