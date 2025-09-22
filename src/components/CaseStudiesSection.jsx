@@ -23,7 +23,7 @@ const CaseStudiesSection = () => {
             </div>
             <div className='font-bold p-4'>
               <h2 className='primary-color uppercase p-1'>Business solution</h2>
-              <a href="#" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
+              <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const CaseStudiesSection = () => {
             </div>
             <div className='font-bold p-4'>
               <h2 className='primary-color uppercase p-1'>Business solution</h2>
-              <a href="#" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
+              <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ const CaseStudiesSection = () => {
             </div>
             <div className='font-bold p-4'>
               <h2 className='primary-color uppercase p-1'>Business solution</h2>
-              <a href="#" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
+              <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
             </div>
           </div>
 
@@ -57,7 +57,7 @@ const CaseStudiesSection = () => {
             </div>
             <div className='font-bold p-4 '>
               <h2 className='primary-color uppercase p-1'>Business solution</h2>
-              <a href="#" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
+              <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='uppercase text-lg text-hover p-0'>Art institute of chicago</a>
             </div>
           </div>
 

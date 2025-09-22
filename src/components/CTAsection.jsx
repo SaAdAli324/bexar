@@ -7,7 +7,7 @@ const CTAsection = () => {
         <div className="absolute inset-0  bg-[url('/backgroundImages/cta-lg.jpg')] bg-cover bg-center bg-fixed  -z-10"></div>
         <div className="relative z-10 text-white text-center container mx-auto  font-bold space-y-8 ">
           <h2 className='uppercase text-4xl'>bexar give the smart solution for your <br /> business</h2>
-          <a href="#" className='btn btn-primary text-sm btn2 uppercase border-none'>get a quote</a>
+          <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='btn btn-primary text-sm btn2 uppercase border-none'>get a quote</a>
         </div>
       </section>
  

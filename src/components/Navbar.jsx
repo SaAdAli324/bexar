@@ -17,30 +17,30 @@ const [showSearchBar, setShowSearchBar] = useState(false)
               <span className='text-sm'>Connect With Us:</span>
               <ul className='flex space-x-2 '>
                 <li className='text-sm icon-hover '>
-                  <a target='_blank' href="https://www.facebook.com/"><Falcons.FaFacebookF /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaFacebookF /></a>
 
                 </li>
                 <li className='text-sm icon-hover '>
-                  <a target='_blank' href="https://www.x.com/"><Falcons.FaTwitter /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaTwitter /></a>
 
                 </li>
                 <li className='text-sm icon-hover'>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaWifi /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaWifi /></a>
 
                 </li>
                 <li className='text-sm icon-hover'>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaGoogle /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaGoogle /></a>
 
                 </li>
                 <li className='text-sm icon-hover'>
-                  <a target='_blank' href="https://www.vime.com/"><Falcons.FaVimeoV /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaVimeoV /></a>
 
                 </li>
               </ul>
             </div>
             <div className=' flex justify-center font space-x-4 px-10 items-center'>
-              <a href="https://www.info@bexar.com/" target='_blank' className='border-r-1 text-sm text-hover border-gray-400 px-4'>info@bexar.com</a>
-              <a href="#" className='text-hover text-sm'>Call Us Now: <span className='primary-textColor'>123 456 798</span> </a>
+              <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" target='_blank' className='border-r-1 text-sm text-hover border-gray-400 px-4'>info@bexar.com</a>
+              <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='text-hover text-sm'>Call Us Now: <span className='primary-textColor'>123 456 798</span> </a>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ const [showSearchBar, setShowSearchBar] = useState(false)
 
                   </ul>
                   <div className='flex max-xl:space-x-3 max-xl:flex-col max-xl:space-y-4 space-x-6 justify-center items-center'>
-                    <a href="#"><Falcons.FaSearch className='' onClick={() => setShowSearchBar(true)} /></a>
+                    <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaSearch className='' onClick={() => setShowSearchBar(true)} /></a>
                     <Link to="/about" className='btn btn-primary text-sm btn2 '>GET STARTED</Link>
                   </div>
                 </div>

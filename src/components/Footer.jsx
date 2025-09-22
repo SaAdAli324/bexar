@@ -35,11 +35,11 @@ const Footer = () => {
               <div className='space-y-4'>
                 <h2 className='uppercase font-bold text-lg'> service</h2>
                 <ul className='list space-y-4 text-[#ddd] list-disc px-5'>
-                  <li><a href="#">Company history</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46">Company history</a></li>
+                  <li><a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46">About Us</a></li>
+                  <li><a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46">Contact Us</a></li>
+                  <li><a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46">Services</a></li>
+                  <li><a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46">Privacy Policy</a></li>
                 </ul>
               </div>
 

@@ -25,7 +25,7 @@ const ServiceProvideSection = () => {
                    <div className='space-y-2 py-4 px-4'>
                      <h2 className='uppercase font-semibold text-lg'>market analysis</h2>
                      <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia tempora cum reprehenderit ratione dolore?</p>
-                     <a href="#" className='uppercase py-4 font-bold flex items-center group text-sm '>read more &nbsp;<Falcons.FaArrowRight className='group-hover:text-lg' /></a>
+                     <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='uppercase py-4 font-bold flex items-center group text-sm '>read more &nbsp;<Falcons.FaArrowRight className='group-hover:text-lg' /></a>
                    </div>
                  </div>
      
@@ -39,7 +39,7 @@ const ServiceProvideSection = () => {
                    <div className='space-y-2 py-4 px-4'>
                      <h2 className='uppercase font-semibold text-lg'>business consulting</h2>
                      <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia tempora cum reprehenderit ratione dolore?</p>
-                     <a href="#" className='uppercase py-4 font-bold flex items-center group text-sm '>read more &nbsp;<Falcons.FaArrowRight className='group-hover:text-lg' /></a>
+                     <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='uppercase py-4 font-bold flex items-center group text-sm '>read more &nbsp;<Falcons.FaArrowRight className='group-hover:text-lg' /></a>
                    </div>
                  </div>
      
@@ -54,7 +54,7 @@ const ServiceProvideSection = () => {
                    <div className='space-y-2 py-4 px-4'>
                      <h2 className='uppercase font-semibold text-lg'>invetment planning</h2>
                      <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia tempora cum reprehenderit ratione dolore?</p>
-                     <a href="#" className='uppercase py-4 font-bold flex items-center group text-sm '>read more &nbsp;<Falcons.FaArrowRight className='group-hover:text-lg' /></a>
+                     <a href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46" className='uppercase py-4 font-bold flex items-center group text-sm '>read more &nbsp;<Falcons.FaArrowRight className='group-hover:text-lg' /></a>
                    </div>
                  </div>
      

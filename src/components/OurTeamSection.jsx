@@ -18,16 +18,16 @@ const OurTeamSection = () => {
             <div className='absolute bottom-23 bg-[#86c33ae6] opacity-0  group-hover:opacity-100 transition-all duration-200 ease-in text-white z-10  flex items-center justify-center w-full py-7'>
               <ul className='flex space-x-4 '>
                 <li className='text-lg border-1 rounded-full p-3 icon'>
-                  <a target='_blank' href="https://www.facebook.com/"><Falcons.FaFacebookF /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaFacebookF /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon '>
-                  <a target='_blank' href="https://www.x.com/"><Falcons.FaTwitter /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaTwitter /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon'>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaWifi /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaWifi /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon '>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaGoogle /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaGoogle /></a>
                 </li>
               </ul>
             </div>
@@ -42,16 +42,16 @@ const OurTeamSection = () => {
             <div className='absolute bottom-23 bg-[#86c33ae6] opacity-0  group-hover:opacity-100 transition-all duration-200 ease-in text-white z-10  flex items-center justify-center w-full py-7'>
            <ul className='flex space-x-4 '>
                 <li className='text-lg border-1 rounded-full p-3 icon'>
-                  <a target='_blank' href="https://www.facebook.com/"><Falcons.FaFacebookF /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaFacebookF /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon '>
-                  <a target='_blank' href="https://www.x.com/"><Falcons.FaTwitter /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaTwitter /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon'>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaWifi /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaWifi /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon '>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaGoogle /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaGoogle /></a>
                 </li>
               </ul>
             </div>
@@ -66,16 +66,16 @@ const OurTeamSection = () => {
             <div className='absolute bottom-23 bg-[#86c33ae6] opacity-0  group-hover:opacity-100 transition-all duration-200 ease-in text-white z-10  flex items-center justify-center w-full py-7'>
           <ul className='flex space-x-4 '>
                 <li className='text-lg border-1 rounded-full p-3 icon'>
-                  <a target='_blank' href="https://www.facebook.com/"><Falcons.FaFacebookF /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaFacebookF /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon '>
-                  <a target='_blank' href="https://www.x.com/"><Falcons.FaTwitter /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaTwitter /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon'>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaWifi /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaWifi /></a>
                 </li>
                 <li className='text-lg border-1 rounded-full p-3 icon '>
-                  <a target='_blank' href="https://www.google.com/"><Falcons.FaGoogle /></a>
+                  <a target='_blank' href="https://www.revenuecpmgate.com/eg8j5pvzgt?key=5026c1f454dea43e509911bd33eadc46"><Falcons.FaGoogle /></a>
                 </li>
               </ul>
             </div>
